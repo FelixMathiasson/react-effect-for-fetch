@@ -12,7 +12,7 @@ function ArtsSection() {
 
 
   return (
-    <section className = 'art-section'>
+    <section>
       <h2>Arts Section</h2>
       <div className="scroll-container">
         <ArtList artworks={artworks} />
